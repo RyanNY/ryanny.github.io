@@ -4,7 +4,8 @@ Personal site. A constant work in progress.
 
 
 
-===== Current Status ===== Current Version: 0.0 Last Updated: 10/22/2014
+===== Current Status ===== 
+Current Version: 0.0 Last Updated: 10/22/2014
 
 ===== Fine Print Below =====
 
