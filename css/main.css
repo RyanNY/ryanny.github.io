@@ -109,21 +109,36 @@ body {
     background-color: rgba(0,0,0,0.6);
     height: 3.125em;
     border-bottom: 1px solid black;
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
 }
 
 .header h1 {
     float: left;
-    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
     height: 100%;
-    margin: auto auto auto 3.125em;
+    margin: auto auto auto 12em;
     max-width: 100%;
+    padding-right: 16.5em;
+}
+
+.header h1 a {
+    color: white;
+    text-decoration: none;
+}
+
+.header h1 a:hover {
+    color: #d1d1d1;
 }
 
 .header h3 {
-    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+
     height: 100%;
     margin: 10px auto auto 10px;
     max-width: 100%;
+}
+
+.imagebanner {
+    height: 530px;
+    border-bottom: 1px solid black;
 }
 
 .imagebanner img {
@@ -131,9 +146,61 @@ body {
     width: 100%;
 }
 
+.navigation {
+    max-width: 100%;
+    height: 100%;
+    margin: 12px auto auto auto;
+}
+
+.navigation ul {
+    max-width: 100%;
+    height: 100%;
+    margin: 0px auto;
+}
+.navigation li {
+    height: 100%;
+    font-size: 18px;
+    display: inline;
+    list-style-type: none;
+    padding-right: 20px;
+    height: 100%;
+    margin: 0px auto;
+}
+
+.navigation a {
+    color: white;
+}
+
+.navigation a:hover {
+    color: #08346a;
+}
+
 .main {
+    max-width: 100%;
+    height: 600px;
     width: 100%;
-    background-color: white;
+    background-color: black;
+}
+
+.mainbody {
+    width: 100%;
+    max-width: 100%;
+    height: 100%;
+    background-color: rgba(8,52,106,0.5);
+}
+
+.mainbodyholder {
+    background-color: rgba(255,255,255,0.6);
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    border: 3px solid black;
+    border-radius: 25px;
+}
+
+footer {
+    position: fixed;
+    width: 100%;
 }
 
 
