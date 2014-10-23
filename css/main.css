@@ -94,7 +94,7 @@ textarea {
 }
 
 /* ==========================================================================
-   Author's custom styles
+   Ryan Scarpelli's custom styles
    ========================================================================== */
 
 body {
@@ -102,33 +102,40 @@ body {
     color: white;
 }
 
-header {
+.header {
     position: fixed;
     max-width: 100%;
     width: 100%;
-    /* background-color: rgba(8,52,106,0.7); */
     background-color: rgba(0,0,0,0.6);
     height: 3.125em;
     border-bottom: 1px solid black;
 }
 
-header h1 {
+.header h1 {
     float: left;
     font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
-    margin-top: auto;
-    margin-left: 5em;
+    height: 100%;
+    margin: auto auto auto 3.125em;
+    max-width: 100%;
 }
 
-header h3 {
+.header h3 {
     font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
-    margin-left: 5em;
-    margin-bottom: 5em;
+    height: 100%;
+    margin: 10px auto auto 10px;
+    max-width: 100%;
 }
 
 .imagebanner img {
     max-width: 100%;
     width: 100%;
 }
+
+.main {
+    width: 100%;
+    background-color: white;
+}
+
 
 
 
