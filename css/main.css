@@ -101,14 +101,24 @@ body {
     background-color: black;
     color: white;
 }
-.name {
 
+header {
+    position: fixed;
+    max-width: 100%;
+    width: 100%;
+    background-color: rgba(8,52,106,0.7);
+    height: 3.125em;
 }
+
+header h1, h3 {
+    margin: 0;
+    text-align: center;
+}
+
+
 .imagebanner img {
     max-width: 100%;
     width: 100%;
-    max-height: 75%;
-    height: 75%;
 }
 
 
