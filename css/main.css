@@ -97,7 +97,19 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+body {
+    background-color: black;
+    color: white;
+}
+.name {
 
+}
+.imagebanner img {
+    max-width: 100%;
+    width: 100%;
+    max-height: 75%;
+    height: 75%;
+}
 
 
 
