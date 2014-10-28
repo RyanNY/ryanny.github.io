@@ -1,31 +1,14 @@
-<!DOCTYPE html>
-<html>
-	<head>
-		<title>Ryan Scarpelli - Personal Website</title>
-		<link rel="stylesheet" type="text/css" href="css/main.css">
-		<link href='http://fonts.googleapis.com/css?family=Merriweather:400,300italic' rel='stylesheet' type='text/css'>
-		<meta name="viewport" content="width=device-width, initial-scale=1">
+---
+title: Home page
+color: blue
+email: Ryan.Scarpelli@GMail.com
+---
+
+{% include head.html %}
 
 
-	</head>
-
-	<body>
 <!-- Header Begin -->
-		<header>
-			<div class="name"><h1>Ryan Scarpelli</h1></div>
-			<div class="nav">
-				<ul>
-					<li><a href="#" alt="home">Home</a></li>
-					<li><a href="#" alt="about">About Ryan</a></li>
-					<li><a href="#" alt="projects">Projects</a></li>
-				</ul>
-			</div>
-			
-			<div class="social">
-				<a href="https://twitter.com/ryanscarpelli"><img src="img/twitter.png" height="50px" width="50px"/></a>
-				<a href="http://github.com/ryanscarpelli"><img src="img/github.png" height="50px" width="50px"/></a>
-			</div>
-		</header>
+{% include header.html %}
 <!-- Header End -->
 		<div class="imagebanner">
 			<img src="img/imagebanner.jpg" alt="image banner" />
@@ -87,13 +70,6 @@
 			</p>
 			</div>
 		</div>
+	<!-- Begin Footer -->
+		{% include footer.html %}
 
-		<footer>
-			<p>Copyright Ryan Scarpelli 2014</p>
-		</footer>
-
-
-
-
-	</body>
-</html>
