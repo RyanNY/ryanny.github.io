@@ -1,0 +1,10 @@
+# Site settings
+title: Ryan Scarpelli's Blog
+email: Ryan.Scarpelli@gmail.com
+description: Ryan's Personal Website
+url: ryanscarpelli.github.io
+github_username: ryanscarpelli
+
+# Build settings
+markdown: kramdown
+permalink: pretty
