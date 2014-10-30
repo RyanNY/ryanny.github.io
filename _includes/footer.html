@@ -1,5 +1,12 @@
 		<footer>
 			<p>Copyright Ryan Scarpelli 2014</p>
+						<ul>
+  {% for post in site.posts %}
+    <li>
+      <a href="{{ post.url }}">{{ post.title }}</a>
+    </li>
+  {% endfor %}
+</ul>
 		</footer>
 	</body>
 	</html>
