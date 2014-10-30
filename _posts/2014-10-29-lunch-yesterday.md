@@ -1,7 +1,9 @@
 ---
 layout: post
 title: What I had for lunch yesterday.
-image:
+image: http://cdn.phillymag.com/wp-content/uploads/2012/05/chickenwings.jpg
 ---
 
 I had chicken.
+
+{{ post.image }}
