@@ -6,4 +6,4 @@ image: http://cdn.phillymag.com/wp-content/uploads/2012/05/chickenwings.jpg
 
 I had chicken.
 
-{{ post.image }}
+<img src="{{page.image}}" />
